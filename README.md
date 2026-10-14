@@ -26,9 +26,11 @@ const FORM_URL = "https://…";        // enlace del formulario
 const PRIVACY_URL = "aviso-privacidad.html"; // o la URL del aviso final
 ```
 
-Mientras `FORM_URL` contenga la palabra `PENDIENTE`, la página muestra un aviso amarillo de demostración. Desaparece al poner la URL real.
+Si `FORM_URL` vuelve a contener la palabra `PENDIENTE`, la página muestra un aviso amarillo de demostración.
 
-Otros pendientes en el código: busca `PENDIENTE` en todos los archivos (logo, colores de marca, domicilio, correo ARCO, plazo de conservación, fecha del aviso).
+Otros pendientes en el código: busca `PENDIENTE` en todos los archivos (logo, colores de marca, domicilio, correo ARCO, plazo de conservación, fecha del aviso, confirmación de la lista de datos contra el formulario final).
+
+Mantén sincronizados el formulario y la sección 2 del aviso de privacidad: si cambian los campos del formulario, actualiza el aviso.
 
 ## Probar en local
 
@@ -46,12 +48,12 @@ Abre `http://localhost:8000`.
 
 ## Generar el código QR
 
-1. Obtén la URL final de la página (por ejemplo `https://USUARIO.github.io/REPO/`).
+1. La URL de la página es `https://atapia9.github.io/diagnostico-relampago/` (cámbiala si se configura un dominio propio).
 2. Genera el QR con cualquier generador que no exija registro, o desde terminal:
 
    ```bash
    pip install qrcode[pil]
-   qr "https://USUARIO.github.io/REPO/" > qr-diagnostico.png
+   qr "https://atapia9.github.io/diagnostico-relampago/" > qr-diagnostico.png
    ```
 3. Imprímelo al menos de 8 × 8 cm, con margen blanco, y **escanéalo con dos teléfonos distintos** antes de imprimir en cantidad.
 
