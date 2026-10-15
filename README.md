@@ -28,7 +28,7 @@ const PRIVACY_URL = "aviso-privacidad.html"; // o la URL del aviso final
 
 Si `FORM_URL` vuelve a contener la palabra `PENDIENTE`, la página muestra un aviso amarillo de demostración.
 
-Otros pendientes en el código: busca `PENDIENTE` en todos los archivos (colores de marca, domicilio, correo ARCO, plazo de conservación, fecha del aviso, confirmación de la lista de datos contra el formulario final).
+Otros pendientes en el código: busca `PENDIENTE` en todos los archivos (colores de marca, domicilio, plazo de conservación, fecha del aviso, confirmación de la lista de datos contra el formulario final).
 
 Mantén sincronizados el formulario y la sección 2 del aviso de privacidad: si cambian los campos del formulario, actualiza el aviso.
 
