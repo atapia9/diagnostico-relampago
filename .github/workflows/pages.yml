@@ -30,7 +30,7 @@ jobs:
       - name: Empaquetar el sitio
         run: |
           mkdir _site
-          cp -r index.html aviso-privacidad.html css js _site/
+          cp -r index.html aviso-privacidad.html css js img _site/
 
       - name: Subir el paquete
         uses: actions/upload-pages-artifact@v3
